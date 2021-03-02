@@ -1,0 +1,14 @@
+import java.awt.*;
+public class ButtonExample
+{
+public static void main(String args[])
+{
+Frame f=new Frame("Button");
+Button B=new Button("click here");
+B.setBounds(50,100,50,50);
+f.add(B);
+f.setSize(300,300); 
+f.setLayout(null);
+f.setVisible(true);
+}
+}
