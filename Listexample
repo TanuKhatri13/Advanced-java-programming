@@ -1,0 +1,14 @@
+import java.awt.*;
+public class ListExample
+{
+ ListExample(){
+ Frame f= new Frame();
+ List l1=new List(5);
+ l1.setBounds(100,100, 75,75);
+ l1.add("Blue");
+ l1.add("Black");
+ l1.add("Orange");
+ l1.add("Red");
+ l1.add("White");
+ f.add(l1);
+ f.setSize(400,400);
